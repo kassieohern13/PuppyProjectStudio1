@@ -322,9 +322,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfb2b323c0358d54e8852a42b1db29ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  barkSound: {fileID: 0}
-  treatSound: {fileID: 0}
-  treatPrefab: {fileID: 0}
+  barkSound: {fileID: 8300000, guid: 2deae01464e3ebb408ee86508edc1ecf, type: 3}
+  treatSound: {fileID: 8300000, guid: e49832195c35bcd479b85065bac80023, type: 3}
+  treatPrefab: {fileID: 919132149155446097, guid: a068e066421d2154a80f864d053580d6,
+    type: 3}
   dogAnimator: {fileID: 934743253}
 --- !u!1 &1322878280
 GameObject:
