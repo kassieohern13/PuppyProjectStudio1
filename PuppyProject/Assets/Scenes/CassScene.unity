@@ -247,20 +247,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 934743252}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &861039951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 861039948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b953efe84dbcca24da80f2131cd0589d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _as: {fileID: 0}
-  _dogWhine: {fileID: 8300000, guid: 2deae01464e3ebb408ee86508edc1ecf, type: 3}
 --- !u!1001 &934743252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -318,6 +304,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d89829dd4490438d85ec10def589782, type: 3}
+--- !u!95 &934743253 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95740633364538598, guid: 9d89829dd4490438d85ec10def589782,
+    type: 3}
+  m_PrefabInstance: {fileID: 934743252}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &934743254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861039948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfb2b323c0358d54e8852a42b1db29ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barkSound: {fileID: 0}
+  treatSound: {fileID: 0}
+  treatPrefab: {fileID: 0}
+  dogAnimator: {fileID: 934743253}
 --- !u!1 &1322878280
 GameObject:
   m_ObjectHideFlags: 0
