@@ -4,7 +4,8 @@ public class DogController : MonoBehaviour
 {
     public AudioClip barkSound;
     public AudioClip treatSound;
-    public GameObject treatPrefab; // Reference to the treat prefab
+    public GameObject treatPrefab;
+    public Animator dogAnimator; // Reference to the Animator component
 
     private AudioSource audioSource;
 
@@ -36,18 +37,20 @@ public class DogController : MonoBehaviour
 
         if (treatPrefab != null)
         {
-            // Instantiate the treatPrefab at the dog's position
             GameObject treat = Instantiate(treatPrefab, transform.position, Quaternion.identity);
-
-            // Destroy the treat after a certain delay (adjust as needed)
             Destroy(treat, 3f);
         }
+
+        // Trigger the "ReceiveTreat" animation
+        if (dogAnimator != null)
+            dogAnimator.SetTrigger("ReceiveTreat");
     }
 
     private void PlaySecondSound()
     {
         // Add your code to play the second sound here
-        // Example: audioSource.PlayOneShot(secondSound);
+        audioSource.PlayOneShot(barkSound);
     }
 }
+
 
