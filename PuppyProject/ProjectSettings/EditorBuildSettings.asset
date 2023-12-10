@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/KassieScene.unity
+    path: Assets/Scenes/Final Scene.unity
     guid: 6ab4d3350072dc548b8fbfcc7f483d37
   - enabled: 0
     path: Assets/Scenes/FinalScene.unity
