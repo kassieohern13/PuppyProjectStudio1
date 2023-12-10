@@ -5,7 +5,7 @@ public class DogController : MonoBehaviour
     public AudioClip barkSound;
     public AudioClip treatSound;
     public GameObject treatPrefab;
-    public Animator dogAnimator; // Reference to the Animator component
+    public Animator dogAnimator; 
 
     private AudioSource audioSource;
 
@@ -40,15 +40,13 @@ public class DogController : MonoBehaviour
             GameObject treat = Instantiate(treatPrefab, transform.position, Quaternion.identity);
             Destroy(treat, 3f);
         }
-
-        // Trigger the "ReceiveTreat" animation
+        
         if (dogAnimator != null)
-            dogAnimator.SetTrigger("ReceiveTreat");
+            dogAnimator.SetTrigger("turning_cockier_spanier");
     }
 
     private void PlaySecondSound()
     {
-        // Add your code to play the second sound here
         audioSource.PlayOneShot(barkSound);
     }
 }
