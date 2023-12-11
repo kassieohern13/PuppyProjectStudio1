@@ -178,6 +178,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\Cassandra.Carpenter\PuppyProjectStudio1\PuppyProject\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
 --root-assembly=C:\Users\Cassandra.Carpenter\PuppyProjectStudio1\PuppyProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Scheduler.dll
 --root-assembly=C:\Users\Cassandra.Carpenter\PuppyProjectStudio1\PuppyProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Device.dll
+--root-assembly=C:\Users\Cassandra.Carpenter\PuppyProjectStudio1\PuppyProject\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=C:\Users\Cassandra.Carpenter\PuppyProjectStudio1\PuppyProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
 --root-assembly=C:\Users\Cassandra.Carpenter\PuppyProjectStudio1\PuppyProject\Temp\StagingArea\Data\Managed\Boxophobic.Utils.Scripts.dll
 --root-assembly=C:\Users\Cassandra.Carpenter\PuppyProjectStudio1\PuppyProject\Temp\StagingArea\Data\Managed\Unity.XR.Management.dll
@@ -190,7 +191,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\Cassandra.Carpenter\PuppyProjectStudio1\PuppyProject\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll
 --root-assembly=C:\Users\Cassandra.Carpenter\PuppyProjectStudio1\PuppyProject\Temp\StagingArea\Data\Managed\Unity.Subsystem.Registration.dll
 --root-assembly=C:\Users\Cassandra.Carpenter\PuppyProjectStudio1\PuppyProject\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
---root-assembly=C:\Users\Cassandra.Carpenter\PuppyProjectStudio1\PuppyProject\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=C:\Users\Cassandra.Carpenter\PuppyProjectStudio1\PuppyProject\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
 --root-assembly=C:\Users\Cassandra.Carpenter\PuppyProjectStudio1\PuppyProject\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
 --assembly-folder=C:\Users\Cassandra.Carpenter\PuppyProjectStudio1\PuppyProject\Temp\StagingArea\Data\Managed\
