@@ -30,7 +30,7 @@ public class DogController : MonoBehaviour
             audioSource.PlayOneShot(barkSound);
     }
 
-    private void GiveTreat()
+    public void GiveTreat()
     {
         if (treatSound != null)
             audioSource.PlayOneShot(treatSound);

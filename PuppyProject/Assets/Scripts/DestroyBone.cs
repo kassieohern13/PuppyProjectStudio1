@@ -6,21 +6,17 @@ public class DestroyBone : MonoBehaviour
 
 {
  
-    public string boneTag = "bone";
+    public string boneTag = "Bone";
 
     private void OnTriggerEnter(Collider other)
     {
        
-        if (other.CompareTag("dog"))
+        if (other.CompareTag("Dog"))
         {
-          
-            GameObject[] boneObjects = GameObject.FindGameObjectsWithTag(boneTag);
 
-            foreach (GameObject boneObject in boneObjects)
-            {
-                Destroy(boneObject);
-                Debug.Log("Destroyed: " + boneObject.name);
-            }
+            DogController dog = other.GetComponent<DogController>();
+            dog.GiveTreat();
+          Destroy(gameObject);
         }
     }
 }
