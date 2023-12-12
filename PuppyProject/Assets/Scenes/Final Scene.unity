@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.07978037, g: 0.09984371, b: 0.3007437, a: 1}
+  m_IndirectSpecularColor: {r: 0.08040998, g: 0.09980188, b: 0.30120647, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2571,6 +2571,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Toybone (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a068e066421d2154a80f864d053580d6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a068e066421d2154a80f864d053580d6, type: 3}
 --- !u!1 &354540477 stripped
@@ -2729,6 +2734,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &354540482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354540477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3ff7eb4dadc6d41a7f86ca5a180a90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boneTag: bone
 --- !u!1001 &380899929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14276,6 +14294,10 @@ PrefabInstance:
     - target: {fileID: 1460832765440916, guid: 9d89829dd4490438d85ec10def589782, type: 3}
       propertyPath: m_Name
       value: cockier_spanier_animated
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460832765440916, guid: 9d89829dd4490438d85ec10def589782, type: 3}
+      propertyPath: m_TagString
+      value: Dog
       objectReference: {fileID: 0}
     - target: {fileID: 4787566621259568, guid: 9d89829dd4490438d85ec10def589782, type: 3}
       propertyPath: m_RootOrder
