@@ -5,21 +5,22 @@ using UnityEngine;
 public class DestroyBone : MonoBehaviour
 
 {
-    public string boneTag = "Bone";
+ 
+    public string boneTag = "bone";
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-     
-        if (collision.gameObject.CompareTag("Dog"))
+       
+        if (other.CompareTag("dog"))
         {
+          
             GameObject[] boneObjects = GameObject.FindGameObjectsWithTag(boneTag);
-            
+
             foreach (GameObject boneObject in boneObjects)
             {
                 Destroy(boneObject);
+                Debug.Log("Destroyed: " + boneObject.name);
             }
         }
-    } 
-    
-    
+    }
 }
