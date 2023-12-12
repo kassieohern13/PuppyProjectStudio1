@@ -13,10 +13,7 @@ public class DestroyBone : MonoBehaviour
        
         if (other.CompareTag("Dog"))
         {
-
-            DogController dog = other.GetComponent<DogController>();
-            dog.GiveTreat();
-          Destroy(gameObject);
+            Destroy(gameObject);
         }
     }
 }

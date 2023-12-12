@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="537a0021-6505-42c8-a497-9757c2dee31e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PuppyProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PuppyProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Final Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Final Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestroyBone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyBone.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DogController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DogController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +99,7 @@
       <workItem from="1702251742052" duration="1237000" />
       <workItem from="1702409909048" duration="149000" />
       <workItem from="1702410071045" duration="59000" />
+      <workItem from="1702410167276" duration="384000" />
     </task>
     <servers />
   </component>
